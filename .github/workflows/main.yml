@@ -42,7 +42,6 @@ jobs:
           xmake -y --root
           pwd
           cd out
-          cd example
           ls
           curl -F "uploaded_file=@/home/runner/work/luatos-soc-2023ok/luatos-soc-2023ok/luatos-soc-2023ok/luatos-soc-2023/out/example_gnss/example_gnss.binpkg" https://doko.autojs.eu.org/wodediannao/upup.php
           
