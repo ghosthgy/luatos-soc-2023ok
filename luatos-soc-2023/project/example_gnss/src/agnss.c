@@ -17,7 +17,8 @@
 #define UART_ID 2
 
 /// @brief 合宙IOT 项目productkey ，必须加上，否则定位失败
-static char *productKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+//static char *productKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+static char *productKey = "daq40eRsCUNNeouooprMyqo5qXFCwcER";
 static luat_rtos_task_handle lbsloc_task_handle = NULL;
 static uint8_t lbsloc_task_tatus = 0;
 
