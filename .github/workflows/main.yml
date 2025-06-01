@@ -20,6 +20,7 @@ jobs:
         run:  git clone https://github.com/ghosthgy/luatos-soc-2023ok.git
       - name: 下载Gcc
         run: |
+          pwd
           cd /home/runner/work/luatos-soc-2023/luatos-soc-2023/luatos-soc-2023ok
           mkdir tools
           wget -q -O tools/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2 https://github.com/wendal/xmake-docker/releases/download/dev-gcc/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2
